@@ -145,3 +145,44 @@ nav a{
     color: #F75840;
 }
 
+ /* -------------------------------- CTA SECTION STYLING -------------------------- */
+#cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.cta-container{
+    background-color: #F75840;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 200px;
+    border-radius: 24px;
+}
+
+.cta-container h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-container p{
+    font-size: 16px;
+}
+
+.cta-container button{
+    background: transparent;
+    color: #fff;
+    outline: 2px solid #fff;
+    border: none;
+    width: 150px;
+    padding: 10px 24px;
+    border-radius: 14px;
+    margin-top: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
