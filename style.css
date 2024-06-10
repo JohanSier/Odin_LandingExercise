@@ -100,8 +100,8 @@ nav a{
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 40px;
-    gap: 32px;
+    padding: 80px;
+    gap: 42px;
 }
 
 .info-cards{
@@ -130,3 +130,18 @@ nav a{
 }
 
  /* -------------------------------- QUOTES SECTION STYLING -------------------------- */
+#quote{
+    background-color: #edeef0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 80px 20%;
+}
+
+#quote p{
+    font-size: 24px;
+    font-style: italic;
+    color: #F75840;
+}
+
