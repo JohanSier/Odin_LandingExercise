@@ -69,16 +69,16 @@ nav a{
 }
 
 .text-and-cta button{
-    background: #E62E48;
-    color: #fff;
-    outline: 2px solid #fff;
-    border: none;
-    width: 100px;
+    background: #fff;
+    color: #1f2937;
+    border: 1px solid #1f2937;
+    width: 125px;
     padding: 10px 24px;
     border-radius: 14px;
     margin-top: 14px;
     cursor: pointer;
     font-weight: 700;
+    font-size: 16px;
 }
 
 .hero-image{
@@ -142,7 +142,7 @@ nav a{
 #quote p{
     font-size: 24px;
     font-style: italic;
-    color: #F75840;
+    color: #1f2937;
 }
 
  /* -------------------------------- CTA SECTION STYLING -------------------------- */
@@ -185,4 +185,15 @@ nav a{
     cursor: pointer;
     font-weight: 700;
     font-size: 18px;
+}
+
+ /* -------------------------------- FOOTER STYLING -------------------------- */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #fff;
+    height: 100px;
+    width: 100%;
 }
