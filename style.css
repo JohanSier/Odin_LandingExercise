@@ -93,8 +93,8 @@ nav a{
     height: 100%;
 }
 
- /* -------------------------------- RANDOM INFO SECTION STYLING -------------------------- */
-.random-info{
+ /* -------------------------------c- RANDOM INFO SECTION STYLING -------------------------- */
+#random-info{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,3 +128,5 @@ nav a{
     object-fit: cover;
     object-position: center;
 }
+
+ /* -------------------------------- QUOTES SECTION STYLING -------------------------- */
