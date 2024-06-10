@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+ /* ----------------------------------- HEADER STYLING ------------------------------------ */
 
 header{
     background-color: #F75840;
@@ -14,6 +15,7 @@ header{
     height: 450px;
 }
 
+ /* --------- NAV STYLING ---------- */
 nav{
     display: flex;
     justify-content: space-between;
@@ -35,13 +37,58 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color: #e5e7eb;
+    color: #fff;
     font-size: 16px;
 }
 
-.hero{
+ /* ----------------------------------- HERO STYLING ------------------------------------ */
+
+#hero{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    width: 100%;
+    gap: 32px;
+}
+
+.text-and-cta{
+    display: inline-flex;
+    flex-direction: column;
+    flex:1;
+    width: 50%;
+    gap: 8px;
+}
+
+.text-and-cta h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.text-and-cta p{
+    font-size: 16px;
+}
+
+.text-and-cta button{
+    background: #E62E48;
+    color: #fff;
+    outline: 2px solid #fff;
+    border: none;
+    width: 100px;
+    padding: 10px 24px;
+    border-radius: 14px;
+    margin-top: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.hero-image{
+    display:inline-flex;
+    width: 50%;
+    height: 280px;
+}
+
+.hero-image img{
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
 }
